@@ -1,0 +1,15 @@
+<h1>indexng nails</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @nails.each do |nail| %>
+    <tr>
+      <td><%= nail.name %></td>
+    </tr>
+    <%end%>
+  </tbody>
+</table>
